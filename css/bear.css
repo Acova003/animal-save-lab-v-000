@@ -10,15 +10,20 @@ html {
 
 /* Write your solution here */
 
-@media only screen and (min-width: px) {
-    .wrapper { width: 600px; }
-    .column {
-        width: 32%;
-        float: left;
-        margin-left: 2%;
-        margin-bottom: 0;
-    }
-  .column:first-child {
-       margin-left: 0%;
+
+@media only screen and (min-width: 1108px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  #social {
+    position: absolute;
+    top: 82px;
+    right: 4px;
+    width: auto;
+  }
+
+  #social a {
+    display: inline-block;
   }
 }
